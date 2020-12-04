@@ -1,0 +1,18 @@
+---
+title: "README"
+author: "Brantley"
+date: "12/4/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Analysis for Week 4 Assignment
+
+This analysis included one script (run_analysis.R).
+
+Subject IDs, activity IDs, the 561-feature vector with time and frequency domain variables (and their labels) were read in for subjects in the test and training data sets. The three data sets were merged together for the test and training groups the combined to form one data set for all subjects. 
+
+A final data set was created that included only variables on mean and standard deviation measures. Each record in this data set represents the average of all collected measures for a subject, grouped by activity type. 
